@@ -27,7 +27,6 @@
  (defun test-shell-sort ()
   "Run a series of tests for shell-sort-wrapper."
   (format t "Start testing shell-sort-wrapper function~%")
-  ;; Basic tests
   (check-shell-sort "Test 1" '(5 3 8 6 2 7 4 1) '(1 2 3 4 5 6 7 8))
   (check-shell-sort "Test 2" '(10 9 8 7 6 5 4 3 2 1) '(1 2 3 4 5 6 7 8 9 10))
   (check-shell-sort "Test 3" '(1 1 1 1 1) '(1 1 1 1 1))
